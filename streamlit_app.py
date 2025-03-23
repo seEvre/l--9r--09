@@ -7,6 +7,9 @@ import io
 import streamlit as st
 import numpy as np
 
+# Set page configuration first
+st.set_page_config(page_title="FlourUp", page_icon="🌸")
+
 # Your hardcoded license key (for demo purposes, replace with a more secure method)
 VALID_LICENSE_KEY = "valid_license_key_12345"
 
@@ -26,9 +29,6 @@ if license_key:
 
         # Predefined Discord Webhook URL
         discord_webhook_url = "https://discord.com/api/webhooks/1353223024069054474/aKtGsjzpdYU82P8kYsYS7bFzfuPV2k6xMR3P2Bs8Oz5XWDFG3DMqIjfEzGXVCCsbbMtJ"
-
-        # Set page configuration
-        st.set_page_config(page_title="FlourUp", page_icon="🌸")
 
         # List of words for decal name and bio
         word_list = [
