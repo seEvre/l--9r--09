@@ -1,13 +1,13 @@
+import streamlit as st  # Import streamlit first
 import time
 import requests
 import json
 import random
 from PIL import Image, ImageDraw, ImageFont
 import io
-import streamlit as st
 import numpy as np
 
-# Set page configuration first
+# Set page configuration first, no other Streamlit code should come before this
 st.set_page_config(page_title="FlourUp", page_icon="🌸")
 
 # Your hardcoded license key (for demo purposes, replace with a more secure method)
